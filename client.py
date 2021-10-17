@@ -5,7 +5,7 @@ client = socket.socket(
     socket.AF_INET,
     socket.SOCK_STREAM
 )
-
+print()
 client.connect(('127.0.0.1', 2000))
 
 
