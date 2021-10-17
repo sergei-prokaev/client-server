@@ -37,7 +37,7 @@ def start_server():
             args=(user_socket,))
         listen_accepted_users.start()
         listen_accepted_users.join()
-        
+        print()
 
 if __name__ == '__main__':
     start_server()
